@@ -7,8 +7,7 @@
 --------------*/
 
 body{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}
 
 .stylish{
     background-image:url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
@@ -107,8 +106,6 @@ padding: 20px 0 50px 0;
         width: 80%;
         height: 200px;
         margin: auto;
-        text-align: center;
-   
     }
     
     .responsive-icon {
@@ -134,3 +131,51 @@ padding: 20px 0 50px 0;
     text-align: center;
     float: left;
 }
+
+.port-header {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.port-header p{
+    color: gold;
+    font-weight: 700;
+}
+.port-header h2{
+    font-size: 3rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.port-item{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 2rem;
+    color: white;
+
+}
+
+.port-item:hover{
+    clip-path: inset(20px);
+    transition: 0.4s;
+    transform: translate3d(0px, 101px, 0px);
+}
+.port-text{
+    margin-top: 280px;
+}
+
+.photo1{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+    background-size: cover;}
+
+.photo2{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-2.jpg);
+    background-size: cover;}
+
+.photo3{
+   background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-3.jpg); 
+   background-size: cover;}
+
+.photo4{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-4.jpg);
+    background-size: cover;}
